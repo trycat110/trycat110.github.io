@@ -18,8 +18,8 @@
 <body>
 	<div id="mainDiv">
 		<div id="content">
-			<div id="code">
-				<span class="comments">/**</span><br />
+			<!--<div id="code">
+				 <span class="comments">/**</span><br />
 				<span class="space"/><span class="comments">* Today, the 13th day of August, is your birthday.</span><br />
 				<span class="space"/><span class="comments">* So I created a page to celebrate this extraordinary day.</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
@@ -43,22 +43,23 @@
 			    <span class="comments">// and everything you wish can be achieved.</span><br />
 				}.start()</br>
 				<span class="comments">// The last thing I wanna say, boring and ordinary, is:</span><br />
-				System.out.println(<span class="string">"Happy Birthday !"</span>);
-			</div>
+				System.out.println(<span class="string">"Happy Birthday !"</span>); 
+			</div> -->
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
 					</br>
+							Hi, 青
+					<!-- </br>
 					</br>
-					</br>
-					</br>
+					 </br>
 						You've been in the world for
-						<div id="elapseClock"></div>
+						<div id="elapseClock"></div> -->
 					</div>
 					<div id="loveu">
 						May you have a year full of happiness.<br/>
-						<div class="signature">- Xavier</div>
+						<div class="signature">- trycat</div>
 					</div>
 				</div>
 			</div>
@@ -74,7 +75,7 @@
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(1997,7, 9);
+		together.setFullYear(2016,1, 17);
 		together.setHours(8);
 		together.setMinutes(0);
 		together.setSeconds(0);
@@ -92,7 +93,7 @@
 		} else {
 			setTimeout(function () {
 				startHeartAnimation();
-			}, 5000);
+			}, 500);
 
 			timeElapse(together);
 			setInterval(function () {
